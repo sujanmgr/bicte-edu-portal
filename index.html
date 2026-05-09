@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BICTE Edu Portal - Study Resources for BICTE Students</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-container">
+            <a href="index.html" class="logo">
+                <i class="fas fa-graduation-cap"></i>
+                BICTE Edu Portal
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="semester1.html">Semesters</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>BICTE Edu Portal</h1>
+        <p>A dedicated resource hub for Bachelor of Information and Communication Technology Education students. Notes, syllabi, and model questions in one place.</p>
+    </div>
+
+    <main class="main-container">
+        <section class="content-area">
+            <h2>Explore by Semester</h2>
+            <div class="semester-grid">
+                <a href="semester1.html" class="semester-badge">
+                    <i class="fas fa-book-open"></i>
+                    <span>Semester 1</span>
+                </a>
+                <a href="semester2.html" class="semester-badge">
+                    <i class="fas fa-laptop-code"></i>
+                    <span>Semester 2</span>
+                </a>
+                <a href="semester3.html" class="semester-badge">
+                    <i class="fas fa-database"></i>
+                    <span>Semester 3</span>
+                </a>
+                <a href="semester4.html" class="semester-badge">
+                    <i class="fas fa-network-wired"></i>
+                    <span>Semester 4</span>
+                </a>
+                <a href="semester5.html" class="semester-badge">
+                    <i class="fas fa-server"></i>
+                    <span>Semester 5</span>
+                </a>
+                <a href="semester6.html" class="semester-badge">
+                    <i class="fas fa-mobile-alt"></i>
+                    <span>Semester 6</span>
+                </a>
+                <a href="semester7.html" class="semester-badge">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Semester 7</span>
+                </a>
+                <a href="semester8.html" class="semester-badge">
+                    <i class="fas fa-project-diagram"></i>
+                    <span>Semester 8</span>
+                </a>
+            </div>
+
+            <h2>Premium Resource Unlock</h2>
+            <div class="unlock-widget">
+                <h3>Unlock BICTE Comprehensive Entrance Guide</h3>
+                <p>Wait for a few seconds to get the high-quality PDF guide for free.</p>
+                <div id="download-action-container">
+                    <button id="unlock-btn" class="unlock-btn">Unlock Download</button>
+                </div>
+                <div id="timer-display" class="timer-display" style="display: none;"></div>
+            </div>
+
+            <h2>Latest Uploads</h2>
+            <div class="resource-list">
+                <div class="resource-item">
+                    <div class="resource-info">
+                        <h4>C Programming Complete Notes</h4>
+                        <p>Uploaded 2 days ago • PDF • 4.5MB</p>
+                    </div>
+                    <a href="#" class="download-link"><i class="fas fa-download"></i></a>
+                </div>
+                <div class="resource-item">
+                    <div class="resource-info">
+                        <h4>Database Management System Lab Manual</h4>
+                        <p>Uploaded 1 week ago • PDF • 2.1MB</p>
+                    </div>
+                    <a href="#" class="download-link"><i class="fas fa-download"></i></a>
+                </div>
+                <div class="resource-item">
+                    <div class="resource-info">
+                        <h4>Operating System Model Questions</h4>
+                        <p>Uploaded 1 week ago • DOCX • 1.2MB</p>
+                    </div>
+                    <a href="#" class="download-link"><i class="fas fa-download"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <aside class="sidebar">
+            <div class="sidebar-widget">
+                <h3>Search Resources</h3>
+                <input type="text" id="resource-search" class="search-box" placeholder="Search notes, subjects...">
+            </div>
+
+            <div class="sidebar-widget">
+                <h3>Popular Materials</h3>
+                <ul class="popular-posts">
+                    <li><a href="#"><i class="far fa-file-pdf"></i> Digital Logic Notes (Sem 1)</a></li>
+                    <li><a href="#"><i class="far fa-file-pdf"></i> Java Programming Guide (Sem 3)</a></li>
+                    <li><a href="#"><i class="far fa-file-pdf"></i> Networking Lab Reports (Sem 4)</a></li>
+                    <li><a href="#"><i class="far fa-file-pdf"></i> AI Principles (Sem 6)</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-widget">
+                <h3>Important Links</h3>
+                <ul class="important-links">
+                    <li><a href="#"><i class="fas fa-external-link-alt"></i> University Website</a></li>
+                    <li><a href="#"><i class="fas fa-external-link-alt"></i> Exam Result Portal</a></li>
+                    <li><a href="#"><i class="fas fa-external-link-alt"></i> Official Syllabus PDF</a></li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BICTE Edu Portal. Developed for BICTE Students.</p>
+        <div style="margin-top: 1rem;">
+            <a href="#" style="margin: 0 0.5rem;"><i class="fab fa-facebook"></i></a>
+            <a href="#" style="margin: 0 0.5rem;"><i class="fab fa-twitter"></i></a>
+            <a href="#" style="margin: 0 0.5rem;"><i class="fab fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
